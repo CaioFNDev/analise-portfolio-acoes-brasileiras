@@ -21,17 +21,17 @@ A análise foi dividida em etapas, desde a coleta e limpeza dos dados até a cri
 ### 1. Trajetória dos Preços Históricos
 A primeira etapa da análise é visualizar a evolução dos preços históricos. Isso nos dá uma visão macroscópica do comportamento de cada ação, permitindo identificar tendências de longo prazo e períodos de alta volatilidade, como a queda abrupta no início de 2020.
 
-![Gráfico de Preços Históricos](Gráficos/preco_historico.png)
+![Gráfico de Preços Históricos](graficos/preco_historico.png)
 
 ### 2. Retornos Diários e Volatilidade
 Para uma análise financeira robusta, trabalhamos com os retornos diários (variação percentual). O gráfico abaixo nos permite visualizar os "clusters de volatilidade" — períodos em que a incerteza do mercado foi significativamente maior, representados por picos e vales extremos.
 
-![Gráfico de Retornos Diários](Gráficos/retornos_diarios.png)
+![Gráfico de Retornos Diários](graficos/retornos_diarios.png)
 
 ### 3. Risco vs. Retorno Anualizado
 Este gráfico de dispersão posiciona cada ativo com base em sua volatilidade (risco) e retorno médio anualizado. É a principal visualização para comparar o perfil de cada ação.
 
-![Gráfico de Risco vs. Retorno](Gráficos/risco_vs_retorno.png)
+![Gráfico de Risco vs. Retorno](graficos/risco_vs_retorno.png)
 
 **Principais Insights:**
 * **MGLU3.SA** foi, de longe, o ativo mais volátil (maior risco), apresentando também um retorno médio negativo no período.
@@ -42,7 +42,7 @@ Este gráfico de dispersão posiciona cada ativo com base em sua volatilidade (r
 ### 4. Matriz de Correlação
 O heatmap de correlação mostra como os retornos dos ativos se movem em conjunto. É uma ferramenta essencial para entender os benefícios da diversificação.
 
-![Matriz de Correlação](Gráficos/matriz_correlacao.png)
+![Matriz de Correlação](graficos/matriz_correlacao.png)
 
 **Principais Insights:**
 * Existe uma correlação positiva moderada entre os ativos de commodities **VALE3.SA** e **PETR4.SA** (0.49), e também entre estes e o ativo do setor bancário **ITUB4.SA**.
