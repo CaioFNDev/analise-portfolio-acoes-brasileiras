@@ -31,7 +31,7 @@ Para uma análise financeira robusta, trabalhamos com os retornos diários (vari
 ### 3. Risco vs. Retorno Anualizado
 Este gráfico de dispersão posiciona cada ativo com base em sua volatilidade (risco) e retorno médio anualizado. É a principal visualização para comparar o perfil de cada ação.
 
-![Gráfico de Risco vs. Retorno](Gráficos/image_20c3c4.png)
+![Gráfico de Risco vs. Retorno](Gráficos/risco_vs_retorno.png)
 
 **Principais Insights:**
 * **MGLU3.SA** foi, de longe, o ativo mais volátil (maior risco), apresentando também um retorno médio negativo no período.
@@ -42,7 +42,7 @@ Este gráfico de dispersão posiciona cada ativo com base em sua volatilidade (r
 ### 4. Matriz de Correlação
 O heatmap de correlação mostra como os retornos dos ativos se movem em conjunto. É uma ferramenta essencial para entender os benefícios da diversificação.
 
-![Matriz de Correlação](Gráficos/image_20c383.png)
+![Matriz de Correlação](Gráficos/matriz_correlacao.png)
 
 **Principais Insights:**
 * Existe uma correlação positiva moderada entre os ativos de commodities **VALE3.SA** e **PETR4.SA** (0.49), e também entre estes e o ativo do setor bancário **ITUB4.SA**.
