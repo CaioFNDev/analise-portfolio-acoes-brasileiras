@@ -21,7 +21,8 @@ A análise foi dividida em etapas, desde a coleta e limpeza dos dados até a cri
 ### 1. Trajetória dos Preços Históricos
 A primeira etapa da análise é visualizar a evolução dos preços históricos. Isso nos dá uma visão macroscópica do comportamento de cada ação, permitindo identificar tendências de longo prazo e períodos de alta volatilidade, como a queda abrupta no início de 2020.
 
-![Gráfico de Preços Históricos](graficos/preco_historico.png)
+![Gráfico de Preços Históricos](graficos/precos_historico.png)
+
 
 ### 2. Retornos Diários e Volatilidade
 Para uma análise financeira robusta, trabalhamos com os retornos diários (variação percentual). O gráfico abaixo nos permite visualizar os "clusters de volatilidade" — períodos em que a incerteza do mercado foi significativamente maior, representados por picos e vales extremos.
